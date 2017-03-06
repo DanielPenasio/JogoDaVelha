@@ -1,7 +1,5 @@
 
 import javax.swing.JOptionPane;
-
-
 /**
  *
  * Daniel Penasio dpenasio@gmail.com
