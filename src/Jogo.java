@@ -153,7 +153,7 @@ public class Jogo extends javax.swing.JFrame {
             }
         });
         getContentPane().add(r11);
-        r11.setBounds(20, 10, 100, 90);
+        r11.setBounds(30, 80, 100, 90);
 
         r12.setFont(new java.awt.Font("Tahoma", 0, 48)); // NOI18N
         r12.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -164,7 +164,7 @@ public class Jogo extends javax.swing.JFrame {
             }
         });
         getContentPane().add(r12);
-        r12.setBounds(130, 10, 100, 90);
+        r12.setBounds(130, 80, 100, 90);
 
         r13.setFont(new java.awt.Font("Tahoma", 0, 48)); // NOI18N
         r13.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -175,7 +175,7 @@ public class Jogo extends javax.swing.JFrame {
             }
         });
         getContentPane().add(r13);
-        r13.setBounds(240, 10, 100, 90);
+        r13.setBounds(230, 80, 100, 90);
 
         r21.setFont(new java.awt.Font("Tahoma", 0, 48)); // NOI18N
         r21.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -186,7 +186,7 @@ public class Jogo extends javax.swing.JFrame {
             }
         });
         getContentPane().add(r21);
-        r21.setBounds(20, 110, 100, 90);
+        r21.setBounds(30, 170, 100, 90);
 
         r22.setFont(new java.awt.Font("Tahoma", 0, 48)); // NOI18N
         r22.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -197,7 +197,7 @@ public class Jogo extends javax.swing.JFrame {
             }
         });
         getContentPane().add(r22);
-        r22.setBounds(130, 110, 100, 90);
+        r22.setBounds(130, 170, 100, 90);
 
         r23.setFont(new java.awt.Font("Tahoma", 0, 48)); // NOI18N
         r23.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -208,7 +208,7 @@ public class Jogo extends javax.swing.JFrame {
             }
         });
         getContentPane().add(r23);
-        r23.setBounds(240, 110, 100, 90);
+        r23.setBounds(230, 170, 100, 90);
 
         r31.setFont(new java.awt.Font("Tahoma", 0, 48)); // NOI18N
         r31.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -219,7 +219,7 @@ public class Jogo extends javax.swing.JFrame {
             }
         });
         getContentPane().add(r31);
-        r31.setBounds(20, 210, 100, 90);
+        r31.setBounds(30, 260, 100, 90);
 
         r32.setFont(new java.awt.Font("Tahoma", 0, 48)); // NOI18N
         r32.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -230,7 +230,7 @@ public class Jogo extends javax.swing.JFrame {
             }
         });
         getContentPane().add(r32);
-        r32.setBounds(130, 210, 100, 90);
+        r32.setBounds(130, 260, 100, 90);
 
         r33.setFont(new java.awt.Font("Tahoma", 0, 48)); // NOI18N
         r33.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -241,11 +241,12 @@ public class Jogo extends javax.swing.JFrame {
             }
         });
         getContentPane().add(r33);
-        r33.setBounds(240, 210, 100, 90);
+        r33.setBounds(230, 260, 100, 90);
 
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/fundo.png"))); // NOI18N
         jLabel1.setMinimumSize(new java.awt.Dimension(370, 443));
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(10, 10, 390, 440);
+        jLabel1.setBounds(0, 0, 370, 450);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
